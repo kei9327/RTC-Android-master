@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/kei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"yuv-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "yuv",
+			"buildType" : "release",
+			"output" : "/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/src/main/cpp/libyuv/libs/arm64-v8a/libyuv.so",
+			"toolchain" : "4314918828794657845"
+		},
+		"yuvconv-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "yuvconv",
+			"buildCommand" : "/Users/kei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/.externalNativeBuild/cmake/release/arm64-v8a --target yuvconv",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/kei/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kei/Library/Android/sdk/ndk-bundle/sysroot -Dyuvconv_EXPORTS -I/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/src/main/cpp/libyuv/include  -isystem /Users/kei/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/src/main/cpp/yuvconv.c",
+					"workingDirectory" : "/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/release/obj/arm64-v8a/libyuvconv.so",
+			"toolchain" : "4314918828794657845"
+		}
+	},
+	"toolchains" : 
+	{
+		"4314918828794657845" : 
+		{
+			"cCompilerExecutable" : "/Users/kei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/kei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

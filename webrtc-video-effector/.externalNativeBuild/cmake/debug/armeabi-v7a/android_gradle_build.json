@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/kei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"yuv-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "yuv",
+			"buildType" : "debug",
+			"output" : "/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/src/main/cpp/libyuv/libs/armeabi-v7a/libyuv.so",
+			"toolchain" : "4314918828794657845"
+		},
+		"yuvconv-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "yuvconv",
+			"buildCommand" : "/Users/kei/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/.externalNativeBuild/cmake/debug/armeabi-v7a --target yuvconv",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/kei/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kei/Library/Android/sdk/ndk-bundle/sysroot -Dyuvconv_EXPORTS -I/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/src/main/cpp/libyuv/include  -isystem /Users/kei/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/src/main/cpp/yuvconv.c",
+					"workingDirectory" : "/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvconv.so",
+			"toolchain" : "4314918828794657845"
+		}
+	},
+	"toolchains" : 
+	{
+		"4314918828794657845" : 
+		{
+			"cCompilerExecutable" : "/Users/kei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/kei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

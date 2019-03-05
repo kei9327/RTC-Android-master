@@ -1,0 +1,15 @@
+# ninja log v5
+0	202	0	CMakeFiles/yuvconv.dir/yuvconv.c.o	6cdcef6fc79b8374
+202	262	0	/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvconv.so	fd38b0d219991348
+1	59	0	CMakeFiles/yuvconv.dir/yuvconv.c.o	6cdcef6fc79b8374
+59	90	0	/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvconv.so	fd38b0d219991348
+1	56	0	CMakeFiles/yuvconv.dir/yuvconv.c.o	6cdcef6fc79b8374
+56	87	0	/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvconv.so	fd38b0d219991348
+0	56	0	CMakeFiles/yuvconv.dir/yuvconv.c.o	6cdcef6fc79b8374
+56	85	0	/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvconv.so	fd38b0d219991348
+1	51	0	CMakeFiles/yuvconv.dir/yuvconv.c.o	6cdcef6fc79b8374
+51	76	0	/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvconv.so	fd38b0d219991348
+0	96	0	CMakeFiles/yuvconv.dir/yuvconv.c.o	6cdcef6fc79b8374
+97	175	0	/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvconv.so	fd38b0d219991348
+0	279	0	CMakeFiles/yuvconv.dir/yuvconv.c.o	6cdcef6fc79b8374
+279	352	0	/Users/kei/Downloads/RTC-Android-master/webrtc-video-effector/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuvconv.so	fd38b0d219991348

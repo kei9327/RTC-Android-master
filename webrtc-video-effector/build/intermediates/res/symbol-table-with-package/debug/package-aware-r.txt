@@ -1,0 +1,6 @@
+com.github.kei9327.webrtc.video.effector
+attr gpuimage_show_loading
+attr gpuimage_surface_type
+id surface_view
+id texture_view
+styleable GPUImageView gpuimage_show_loading gpuimage_surface_type
