@@ -18,14 +18,6 @@ import jp.co.cyberagent.android.gpuimage.filter.GPUImageFilter;
 import jp.co.cyberagent.android.gpuimage.filter.GPUImageGammaFilter;
 import jp.co.cyberagent.android.gpuimage.filter.GPUImageGrayscaleFilter;
 
-/**
- * Copyright 2018 JP-Brothers. All Rights Reserved.
- * <p>
- * 카메라에서 나온 영상을 필터 및 효과를 적용하는 역활을 한다
- * <p>
- * author: Jang-hyeok Park
- * date: 2018. 1. 16.
- */
 public class RTCVideoEffector {
 
     public static final String TAG = RTCVideoEffector.class.getSimpleName();
@@ -127,11 +119,6 @@ public class RTCVideoEffector {
             // TODO
         }
 
-//        for (FrameImageFilter filter : filters) {
-//            if (filter.isEnabled()) {
-//                stepTextureId = filter.filter(context, stepTextureId);
-//            }
-//        }
         if (filterWrapper.isEnabled()) {
             stepTextureId = filterWrapper.filter(context, stepTextureId);
         }
